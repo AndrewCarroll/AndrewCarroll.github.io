@@ -6,7 +6,7 @@ There has been significant discussion recently on the concept of the “virtual 
 
 What do people mean when they say “virtual cell”? From listening to descriptions of what it will achieve, I think they want a model which lets them position every healthy cell and any disease on a coordinate map, so they can represent any disease causing effect as a path on that map, and that map will then indicate the treatment paths that move back to the healthy state.
 
-![The "map" between disease perturbation and treatment in transcriptomics](images/sc_umap_concept.png)
+![The "map" between disease perturbation and treatment in transcriptomics](/images/sc_umap_concept.png)
 
 The “virtual cell” as currently discussed centers on the transcriptome, with several large public datasets of a few cell lines with genetic or drug perturbations, with some datasets overlaying spatial data (spatial transcriptomics) and some including other imaging. 
 
