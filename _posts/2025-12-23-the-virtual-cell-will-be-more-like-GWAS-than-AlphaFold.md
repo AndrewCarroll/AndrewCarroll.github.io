@@ -12,6 +12,17 @@ Tied with the push toward a virtual cell are efforts to build a foundation model
 
 However, I don’t think the experience with transcriptome foundational models will manifest in that way. I think the experience will look more like how we use GWAS.
 
+## Why are people excited and why is this area is very hard
+
+Breakthroughs in models are preceded and enabled by breakthroughs in data collection methods combined with breakthroughs in metrics that allow their measurement. AlphaFold depended on PDB structures and CASP evaluations, ImageNet contained both the data and metrics needed to nucleate the deep learning for image classification. The combination of genome in a bottle data and comparators enabled substantial improvement in sequence methods, as well as analysis methods like variant calling and genome assembly.
+
+One reason for excitement is that we have major breakthroughs in data generation. The cost to barcode cells and sequence RNA at scale has fallen dramatically, companies are competing on solutions that with a single run simultaneously image a slide. Proteomics assays are scaling into this space. Which is one reason multiple efforts have formed to build something like the ImageNet for the transcriptome.
+
+I agree this is very exciting. And I love how open the datasets have been. But there are two areas where we still have obstacles to overcome. The first is that experimental batch effects are very strong in these assays. Which sequencer you use, which kits you use, how you prepare the RNA, how you handle the cells before preparation can all have large effects. So the majority of the difference between two datasets can be effectively “non-biological” in the sense that what you would learn doesn’t correspond to the parts of the biology you want to learn.
+
+This interacts with the second problem. Our metrics to understand model quality are still weak. Metrics like “how well did you reconstruct the dataset” run into the issue that doing well on that is a lot about modeling the specifics of the assay error. Other metrics like “predicting cell type” have an issue that what the label is often is artificial (e.g. what is a “cell type”). 
+
+You might think I am pessimistic about this area. That’s not the case, I’m very excited. But I think the ways these models will be best used will follow a specific path.
 
 ## Lessons from Mendelian Genetics and GWAS
 
