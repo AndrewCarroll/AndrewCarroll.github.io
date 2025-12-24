@@ -17,7 +17,7 @@ However, I don’t think the experience with transcriptome foundational models w
 
 This reminds me of another area which involves noisy, high dimensional data, which sits at the interface of the genome and the environment, and is enabled by a few large scale datasets - Genome Wide Association Studies (GWAS). 
 
-In GWAS, we have noisy measurements of phenotypes where researchers as specific and controlled questions about the correlation of genetic factors and those phenotypes. A rich field has developed around the right ways to isolate confounding factors and get the clearest statistical links. There are a few foundational datasets, most notable is UKBiobank, the scope, scale, and broad availability to scientists, has been extremely enabling.
+In GWAS, we have noisy measurements of phenotypes where researchers ask specific and controlled questions about the correlation of genetic factors and those phenotypes. A rich field has developed around the right ways to isolate confounding factors and get the clearest statistical links. There are a few foundational datasets, most notable is UKBiobank, the scope, scale, and broad availability to scientists, has been extremely enabling.
 
 Statistical genetics has proven useful for drug discovery (PCSK9 inhibitors being a clear example) and target validation. But it has been very difficult for genomic foundation models to contribute to the association component. Because of the number of genome variants relative to sample numbers, models overfit faster than they learn generalizable information. There are starting to be some demonstrations of this, but the field has achieved a great deal without using foundation models for the association component.
 
