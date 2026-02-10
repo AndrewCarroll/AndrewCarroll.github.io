@@ -1,5 +1,3 @@
-*Disclaimer: These are solely my views.*
-
 This blog is about how automation of wet lab work will proceed. The concept of an AI lab-in-loop is relevant, but most of the trends and limits are independent of it.
 
 We’re talking science, and science is all about falsifiable predictions. So the core of the blog is: lab automation will occur incrementally in a task-by-task manner for assays of large individual scale. The long tail majority of lab tasks will only be automated around or after when widespread, general skilled task automation occurs (e.g. plumbing, electrical, mechanic).
@@ -65,4 +63,6 @@ Lab automation and AI lab-in-loop may then have an indirect effect, because it w
 ## Final Thoughts
 
 Predictions that an AI system can’t do something have a quite poor track record. So this prediction isn’t about capability, it’s about ordering. My final words are - there’s a lot of valuable low hanging fruit, and for the present time humans still have plenty of tough nuts to crack.
+
+*Disclaimer: These are solely my views.*
 
