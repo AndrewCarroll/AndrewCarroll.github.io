@@ -10,11 +10,11 @@ Lab automation will at the same time provide substantial value for assays run at
 
 I want to illustrate this with a story. In the first year of my PhD, I biked to whole foods, bought a fresh coconut, cracked it in the lab, filtered the water, and used it in a protocol.
 
-My advisor suggested we try to watch the process of a plant cell regenerate its cell wall after removal by using a fluorescent carbohydrate binding dye and a labelled protein. But plant cells really don’t like getting their walls removed, and you need a happy cell if you want to watch a process that’s not totally dominated by stress response. It turns out that there are [cytokinins in coconut water](https://www.science.org/doi/10.1126/science.94.2441.350) helpful to protoplast regeneration. We don’t know all their identities or how they work, but heat treating or processing the water makes them not work. So there I was, brand new scientist in Whole Foods buying a coconut. For Science.
+My advisor suggested we try to watch the process of a plant cell regenerate its cell wall after removal by using a fluorescent carbohydrate binding dye and a labelled protein. But plant cells really don’t like getting their walls removed, and you need a happy cell if you want to watch a process that’s not totally dominated by stress response. It turns out that there are [cytokinins in coconut water](https://www.science.org/doi/10.1126/science.94.2441.350) helpful to protoplast regeneration. We don’t know all their identities or how they work, but harsh processing of the water makes them not work. So there I was, brand new scientist in Whole Foods buying a coconut. For Science.
 
 During my PhD, I did many procedures that can now be automated at scale - cloning many genes, transforming bacteria, protein expression and blotting.
 
-I also did confocal microscopy on plants, high pressure freezing and cryoEM, used ionic liquids, transformed and crossed Arabidosis, used a fluorimeter to profile fabric dyes, cracked a coconut, and many bespoke things I have forgotten.
+I also did confocal microscopy on plants, high pressure freezing and cryoEM, used ionic liquids, transformed and crossed Arabidopsis, used a fluorimeter to profile fabric dyes, cracked a coconut, and many bespoke things I have forgotten.
 
 I think this experience is quite typical, especially for scientists who work with plant, animal, or fungi systems - systems which aren’t fully amenable to liquid handling. There is a stupendous long tail of procedures that are necessary, require a high level of care and expertise, which are not done at vast scale, and which are particularly difficult for robotics to automate.
 
