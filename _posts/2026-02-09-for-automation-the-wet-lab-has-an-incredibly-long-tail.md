@@ -10,9 +10,7 @@ Lab automation will at the same time provide substantial value for assays run at
 
 I want to illustrate this with a story. In the first year of my PhD, I biked to whole foods, bought a fresh coconut, cracked it in the lab, filtered the water, and used it in a protocol.
 
-My advisor suggested we try to watch the process of a plant cell regenerate its cell wall after removal by using a fluorescent carbohydrate binding dye and a labelled protein. But plant cells really don’t like getting their walls removed, and you need a happy cell if you want to watch a process that’s not totally dominated by stress response. It turns out that there are cytokines in coconut water helpful to protoplast regeneration.
-
-We don’t know all their identities or how they work, but heat treating or processing the water makes them not work. So there I was, brand new scientist in Whole Foods buying a coconut. For Science.
+My advisor suggested we try to watch the process of a plant cell regenerate its cell wall after removal by using a fluorescent carbohydrate binding dye and a labelled protein. But plant cells really don’t like getting their walls removed, and you need a happy cell if you want to watch a process that’s not totally dominated by stress response. It turns out that there are [cytokines in coconut water](https://www.science.org/doi/10.1126/science.94.2441.350) helpful to protoplast regeneration. We don’t know all their identities or how they work, but heat treating or processing the water makes them not work. So there I was, brand new scientist in Whole Foods buying a coconut. For Science.
 
 During my PhD, I did many procedures that can now be automated at scale - cloning many genes, transforming bacteria, protein expression and blotting.
 
@@ -28,13 +26,13 @@ Lab automation is hugely successful and valuable because it targets assays that 
 
 When an assay reaches a certain scale, the scale itself becomes the overriding challenge, especially to minimize drift in the assay between operators and between the first and millionth run. These cases are the extreme demonstration of the principle: “Give me six hours to chop down a tree and I will spend the first four sharpening the axe”.
 
-The best way to do the task in both quality and price is to build a system to automate it. The life sciences manifestation of the XKCD automation chart.
+The best way to do the task in both quality and price is to build a system to automate it. The life sciences manifestation of the [XKCD automation chart](https://xkcd.com/1205/).
 
 I love lab automation. I used to take a video of robotic liquid handlers at every ASHG conference where I saw them. The leaders in the space are contributing huge value to help scientists work at scale. In part, this is because they are smart about how they run their services, focusing on the assays that make the most sense to scale and automate.
 
 So how will the concept of AI lab-in-loop interact with this? I think AI lab-in-loop is a great idea. There will be all sorts of challenges in implementing it, but the upsides are clear.
 
-Some of those are: to use general knowledge to bootstrap new procedures. To rapidly optimize protocols by intelligent exploration of the protocol space and be able to incorporate that date in a nuanced way to inform the next set of experiments, and to reduce the gating on manual human steps in development of new assays.
+Some of those upsides: to use general knowledge to bootstrap new procedures. To rapidly optimize protocols by intelligent exploration of the protocol space and be able to incorporate that date in a nuanced way to inform the next set of experiments, and to reduce the gating on manual human steps in development of new assays.
 
 It may come up with new assays not previously considered, but which are either cheap/trivial extensions of ones already developed, or fully new protocols.
 
