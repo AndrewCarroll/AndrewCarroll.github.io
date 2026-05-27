@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Genome Foundation Models"
 ---
 
@@ -26,8 +26,8 @@ I've trained a simple 3-layer network to solve this problem. Training models lik
 Below I am showing how two examples, (MW-STOP) and (MAQ) are predicted over the course of the training run. I am showing the activation of neurons on their connection, as well as the training epoch and the overall accuracy on the hold-out test set of the model.
 
 <table><tr>
-<td><img src="/images/foundation_model_blog/activation_orf_trp_stop.gif" alt="Network learning MW-STOP"></td>
-<td><img src="/images/foundation_model_blog/activation_orf_ala_gln.gif" alt="Network learning MAQ"></td>
+<td><img src="/images/foundation_model_blog/activation_orf_trp_stop.gif" alt="Network learning MW-STOP" style="max-width: 100%;"></td>
+<td><img src="/images/foundation_model_blog/activation_orf_ala_gln.gif" alt="Network learning MAQ" style="max-width: 100%;"></td>
 </tr></table>
 
 ## Transferring knowledge from a foundation model to a new model
@@ -41,8 +41,8 @@ Here, I'll show you two different networks. In the first network on the left, we
 Like before, I'll show you the network for two examples. Notice how the model on the right with the embeddings learns to solve the problem faster and with an overall better accuracy.
 
 <table><tr>
-<td><img src="/images/foundation_model_blog/hydro_activation_scratch.gif" alt="Learning from scratch"></td>
-<td><img src="/images/foundation_model_blog/hydro_activation_transfer.gif" alt="Learning with pre-trained embeddings"></td>
+<td><img src="/images/foundation_model_blog/hydro_activation_scratch.gif" alt="Learning from scratch" style="max-width: 100%;"></td>
+<td><img src="/images/foundation_model_blog/hydro_activation_transfer.gif" alt="Learning with pre-trained embeddings" style="max-width: 100%;"></td>
 </tr></table>
 
 ## What are the advantages of the foundation model approach
