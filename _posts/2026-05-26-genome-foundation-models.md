@@ -55,11 +55,11 @@ This approach is most useful when your ability to encode knowledge into the netw
 
 To illustrate these advantages, we can look at some training curves. The curve below shows the evaluation accuracy in training a model on 50 examples. The blue curve is model with pre-trained embeddings. You can see how it can rapidly focus learning on the hydrophobicity problem, while the from scratch model in red has to learn both aspects of the problem. To show the importance of the prior knowledge, in the orange curve I took the same architecture of the model with embeddings, but randomized the weights, basically erasing the information in the network. This model has the same architecture as the embeddings model, but without the prior information does not give the performance boost.
 
-![Training comparison with 50 examples](/images/foundation_model_blog/transfer_three_way_comparison.png)
+<img src="/images/foundation_model_blog/transfer_three_way_comparison.png" alt="Training comparison with 50 examples" style="max-width: 75%;">
 
 To illustrate how the amount of data affects the relative advantage of using foundation models, in this example I am expanding the training dataset from 50 examples to 1,000. Here, you can see that the model with the embeddings still learns much faster, but with the larger amount of data, the "from scratch" model can eventually reach the same performance.
 
-![Training comparison with 1000 examples](/images/foundation_model_blog/transfer_comparison_1000_light.png)
+<img src="/images/foundation_model_blog/transfer_comparison_1000_light.png" alt="Training comparison with 1000 examples" style="max-width: 75%;">
 
 ## Inspecting what models learn
 
@@ -75,11 +75,11 @@ This is the PCA for task 2 (hydrophobicity prediction). You can visually see the
 
 Interestingly, you may be able to see some artifacts of the original embedding, here cysteine (C), a hydrophobic amino acid, is close to Tryptophan (W), a neutral one. Cysteine and Tryptophan share their first 2 nucleotides (TG) with STOP.
 
-![PCA of Task 2 embeddings colored by hydrophobicity](/images/foundation_model_blog/embedding_pca_task2.png)
+<img src="/images/foundation_model_blog/embedding_pca_task2.png" alt="PCA of Task 2 embeddings colored by hydrophobicity" style="max-width: 75%;">
 
 In contrast, this is the same PCA for the network in Task 1. You can see that there is no clear structure in terms of hydrophobicity. Also interesting to reflect on is the fact that we actually do expect to see some structure, because of the design inherent in the triplet code itself. The triplet code is organized in a manner that places similar amino acids closer to each other, in order to minimize the disruptive effect of a mutation. To the extent that we see structure in the image, it is because the shadow of that structure is implicit in the original task.
 
-![PCA of Task 1 embeddings colored by hydrophobicity](/images/foundation_model_blog/embedding_pca_task1.png)
+<img src="/images/foundation_model_blog/embedding_pca_task1.png" alt="PCA of Task 1 embeddings colored by hydrophobicity" style="max-width: 75%;">
 
 ## What's the difference between any model and a "foundation model"
 
